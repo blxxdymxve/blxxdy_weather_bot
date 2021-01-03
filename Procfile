@@ -1,0 +1,1 @@
+worker: python blxxdy_weather_bot.py $PORT
