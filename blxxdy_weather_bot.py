@@ -31,7 +31,7 @@ def send_echo(message):
         else:
             answer += "Кайф, такая погодка зимой!"
 
-        bot.send_message(message.chat.id, answer + "\n\nНапиши мне в личку)")
+        bot.send_message(message.chat.id, answer + "\n\nНапиши мне (@blxxdymxve)")
 
     except pyowm.commons.exceptions.NotFoundError:
         bot.send_message(message.chat.id, 'Введите город: ')
